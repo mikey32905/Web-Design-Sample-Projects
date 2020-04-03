@@ -1,0 +1,1 @@
+This repo contains my work at developing my portfolio page.  This portfolio page was developed based on a tutorial from freecodecamp, https://scrimba.com/g/gportfolio.  I will add more to this as I go along.  
