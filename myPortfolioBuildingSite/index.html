@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/058b719d95.js" crossorigin="anonymous"></script>
         <title>Mike's Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
@@ -19,10 +20,10 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -86,36 +87,65 @@
 
         <!-- My Work -->
         <section class="my-work" id="work">
-            <h2 class="section__title">My Work</h2>
-            <p class="section__subtitle">  </p>
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of the work I've done.</p>
 
             <div class="portfolio">
                 <!-- Portfolio Item 01 -->
                 <a href="#" class="portfolio__item">
-                    <img src="#" alt="" class="portfolio__img">
+                    <img src="images/15.jpg" alt="" class="portfolio__image">
                 </a>
                 <!-- Portfolio Item 02 -->
                 <a href="#" class="portfolio__item">
-                    <img src="#" alt="" class="portfolio__img">
+                    <img src="images/186.jpg" alt="" class="portfolio__image">
                 </a>
                 <!-- Portfolio Item 03 -->
                 <a href="#" class="portfolio__item">
-                    <img src="#" alt="" class="portfolio__img">
+                    <img src="images/22.jpg" alt="" class="portfolio__image">
+                </a>
+                <!-- Portfolio Item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/39491cdfaf8c978d21287d8a12e11828.jpg" alt="" class="portfolio__image">
+                </a>
+                <!-- Portfolio Item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/Tree_Root_Canopy_by_ANTIFAN_REAL.jpg" alt="" class="portfolio__image">
+                </a>
+                <!-- Portfolio Item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/Underwater City.jpg" alt="" class="portfolio__image">
                 </a>
             </div>
         </section>
 
         <!-- footer -->
-        <footer>
+        <footer class="footer">
             <a href="mailto:mikey32905@1791.com" class="footer__link">mikey32905@1791.com</a>
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">a</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com">b</a></li>
-                <li class="social-list__item"><a class="social-list__link"></a>codepen</li>
-                <li class="social-list__item"><a class="social-list__link"></a>dribbble</li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>     
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link"href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
 
+        <script src="js/index.js"></script>
 
     </body>
 
